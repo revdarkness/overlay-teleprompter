@@ -43,7 +43,7 @@ DEFAULTS = {
     "speed": 60.0,          # pixels per second
     "font_size": 34,
     "opacity": 0.88,
-    "width": 900,
+    "width": 1100,
     "height": 460,
     "x": 200,
     "y": 120,

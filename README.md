@@ -1,6 +1,16 @@
 # Overlay Teleprompter
 
-A frameless, always-on-top teleprompter that floats over any window while you record. No installers, no dependencies, no accounts. Standard-library Python only.
+**Read your script while you look straight down the lens.** A frameless, always-on-top prompter that floats over OBS, Camtasia, Zoom, or anything else on screen, and is driven entirely by global hotkeys so you never have to click back into it mid-take.
+
+![The prompter window, with the orange reading line and the speed and wpm readout](docs/screenshot.png)
+
+No installers, no dependencies, no accounts. Standard-library Python only, about 600 lines, one file.
+
+## Rolling
+
+![The prompter scrolling a script at 80 pixels per second](docs/demo.gif)
+
+Text rolls at a speed you set in pixels per second, with a live words-per-minute estimate and a countdown of time left in the bar. The orange line marks where to read. Hit `Ctrl+Alt+Space` from inside your recording app and it starts after a three-second countdown.
 
 ## Setup
 
@@ -27,7 +37,7 @@ If Python is not installed, grab it from python.org and tick "Add python.exe to 
 
 The global hotkeys are the important ones. Once you hit record and click into OBS or Camtasia, this window no longer has focus, and `Ctrl+Alt+Space` is what starts the roll without you touching the mouse.
 
-Speed is in pixels per second, with a live words-per-minute estimate and a countdown of time remaining in the bar. Conversational delivery lands around 140 to 160 wpm. Set the speed once with your actual script loaded and the wpm readout will tell you whether the pace matches how you talk.
+Conversational delivery lands around 140 to 160 wpm. Set the speed once with your actual script loaded and the wpm readout will tell you whether the pace matches how you talk.
 
 ## Recording workflow
 
