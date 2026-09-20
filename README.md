@@ -44,3 +44,7 @@ Everything you set persists to `%APPDATA%\OverlayTeleprompter\config.json`, incl
 
 - The prompter window is captured by screen recorders and by full-screen capture in OBS. If you are recording your screen rather than just a camera, add OBS as a **Window Capture** source of the app you are demoing instead of a Display Capture, and the prompter stays out of the footage while remaining visible to you.
 - Click-through and the global hotkeys use the Windows API. On macOS or Linux the app still runs, but you control it from the window itself.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
